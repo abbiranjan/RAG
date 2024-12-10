@@ -1,4 +1,4 @@
-RAG FLOW
+# RAG FLOW
     - User input the query
     - Query will go to framework called Langchain
     - Langchain will be responsible for all the fetching, all of the LLM coordination & all the communication with user.
