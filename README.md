@@ -28,26 +28,26 @@ If problem involves processing of large amount of text and text keeps on changin
 
 # Open-source model (Can be downloaded)
     Example - LLama 3.1 by Meta, Gemma by Google (Designed to perform smaller tasks). 
-  *Features* - Large-scale model with extensive language capabilities.
-    **Capabilities** - High accuracy in understanding and generating text.
-    **Use cases** - NLP tasks, research and development.
+  **Features** - Large-scale model with extensive language capabilities.
+  **Capabilities** - High accuracy in understanding and generating text.
+  **Use cases** - NLP tasks, research and development.
 
 # Closed-Source LLM
-    These models are owned by companies and are usually available through paid APIs or services. The source code and underlying model architecture are typically not publicly disclosed.
+*These models are owned by companies and are usually available through paid APIs or services. The source code and underlying model architecture are typically not publicly disclosed.*
 
 # Advantages of RAG
-    - Improved factual consistency
-    - Enhancing domain-specific knowledge
-    - Reducing hallucination
+- Improved factual consistency
+- Enhancing domain-specific knowledge
+- Reducing hallucination
 
 RAG enhances LLMs by integrating external information retrieval for more accurate responses.
 
 # Steps
-    1. **Query Genaration:**  The model creates a query from the input
+  *Query Genaration:*  The model creates a query from the input
 
-    2. **Information Retrieval:** Relevant data is fetched from external sources.
+  *Information Retrieval:* Relevant data is fetched from external sources.
 
-    3. **Response Generation:** The LLMs uses this data to generate a fact-based response.
+  *Response Generation:* The LLMs uses this data to generate a fact-based response.
 
 `Hallucination` refers to the generation of incorrect or fabricated information that the model produces, which is not based  on actual facts or reliable sources.
 
@@ -61,8 +61,8 @@ RAG enhances LLMs by integrating external information retrieval for more accurat
     **4. Post-Processing Checks** - Applies checks after response generation to correct inaccuracies before delivery.
 
 # Other ways to train LLMs or domain specific knowledge aprat from RAG
-    **1. FINE-TUNING**: Adapts the LLM to specialized knowledge by training it on domain-specific datasets (e.g., medical texts for healthcare queries).
+  **1. FINE-TUNING**: Adapts the LLM to specialized knowledge by training it on domain-specific datasets (e.g., medical texts for healthcare queries).
 
-    **2. PROMPT ENGINEERING**: Crafts detailed prompts to guide the LLM in generating accurate, field-specific responses(For example like giving entire legal or technical document).
+  **2. PROMPT ENGINEERING**: Crafts detailed prompts to guide the LLM in generating accurate, field-specific responses(For example like giving entire legal or technical document).
 
-    **3. DOMAIN-SPECIFIC-RETRIEVAL**: Integrates specialized knowledge bases (e.g. legal databases) for precise relevant information retrieval.
+  **3. DOMAIN-SPECIFIC-RETRIEVAL**: Integrates specialized knowledge bases (e.g. legal databases) for precise relevant information retrieval.
