@@ -28,7 +28,7 @@ If problem involves processing of large amount of text and text keeps on changin
 
 # Open-source model (Can be downloaded)
     Example - LLama 3.1 by Meta, Gemma by Google (Designed to perform smaller tasks). 
-    *Features* - Large-scale model with extensive language capabilities.
+  *Features* - Large-scale model with extensive language capabilities.
     **Capabilities** - High accuracy in understanding and generating text.
     **Use cases** - NLP tasks, research and development.
 
