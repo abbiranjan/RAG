@@ -66,3 +66,7 @@ RAG enhances LLMs by integrating external information retrieval for more accurat
   **2. PROMPT ENGINEERING**: Crafts detailed prompts to guide the LLM in generating accurate, field-specific responses(For example like giving entire legal or technical document).
 
   **3. DOMAIN-SPECIFIC-RETRIEVAL**: Integrates specialized knowledge bases (e.g. legal databases) for precise relevant information retrieval.
+
+# Ollama is tool that simplifies the running of open source LLM directly in your computer.
+
+Ollama offers a privacy-focused alternative to ChatGPT by running models and storing data on your system
